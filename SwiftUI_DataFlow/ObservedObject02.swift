@@ -18,7 +18,7 @@ struct ObservedObject02: View {
         VStack {
             Text("\(data.score)")
             Stepper(value: $data.score, in: 0...100){
-                Text("値の変更")
+                Text("Change Value: ")
             }.fixedSize()
         }
     }
