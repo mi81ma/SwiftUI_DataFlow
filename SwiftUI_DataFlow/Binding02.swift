@@ -16,7 +16,7 @@ struct Binding02: View {
                 Text(order)
                 NavigationLink(
                     destination: InputTextView(text: $order)) {
-                        Text("入力")
+                        Text("Show Text Input Page")
                     }
                 }
             }
@@ -28,11 +28,14 @@ struct InputTextView: View {
     @Binding var text: String
 
     var body: some View {
-        TextField("Input here", text: $text)
-            .padding()
-            .textFieldStyle(
-            RoundedBorderTextFieldStyle())
+        ZStack {
 
+            Rectangle().fill(Color.orange).edgesIgnoringSafeArea(.all)
+            TextField("Input here", text: $text)
+                .padding()
+                .textFieldStyle(
+                    RoundedBorderTextFieldStyle())
+        }
     }
 }
 

@@ -9,16 +9,16 @@ import SwiftUI
 
 struct ObservedObject04: View {
 
+    // One data class instance
     var storeClasInstance = StoreDataClass()
 
     var body: some View {
 
         VStack {
-            // reference to one instance
-            ObservedObject01(data: storeClasInstance)
-            ObservedObject01(data: storeClasInstance)
+            // Reference to the one instance
+            ObservedObjectView01(data: storeClasInstance)
+            ObservedObjectView01(data: storeClasInstance)
         }
-
     }
 }
 

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct KeyPathExample: View {
 
-    let items = ["Chocolate", "Vanilla", "Strawberry", "Mint Chip","Pistachio"]
+    let items = ["Apple", "Blue Berry", "Cherry", "Date"]
 
     var body: some View {
 
@@ -18,7 +18,7 @@ struct KeyPathExample: View {
                 Text($0)
                 Text($0)
             }
-            .navigationBarTitle(Text("Today's Flavors"))
+            .navigationBarTitle(Text("Today's Fluits"))
         }
 
     }

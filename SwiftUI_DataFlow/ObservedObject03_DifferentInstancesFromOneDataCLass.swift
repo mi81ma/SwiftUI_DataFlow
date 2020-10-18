@@ -12,8 +12,8 @@ struct ObservedObject03: View {
         VStack {
 
             // Refer to each seperate instances
-            ObservedObject01(data: StoreDataClass())
-            ObservedObject01(data: StoreDataClass())
+            ObservedObjectView01(data: StoreDataClass())
+            ObservedObjectView01(data: StoreDataClass())
         }
     }
 }

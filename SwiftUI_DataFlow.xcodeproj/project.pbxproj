@@ -10,10 +10,14 @@
 		6915092E25370C0D003909D2 /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6915092D25370C0D003909D2 /* EnvironmentObjectView.swift */; };
 		691509312537148B003909D2 /* EnvironmentObjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691509302537148B003909D2 /* EnvironmentObjectListView.swift */; };
 		6915093425371765003909D2 /* EnvironmentObjectStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6915093325371765003909D2 /* EnvironmentObjectStartView.swift */; };
+		699A375D253AA8FE008F2C26 /* Binding04Qestion_StateLifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A375C253AA8FE008F2C26 /* Binding04Qestion_StateLifetime.swift */; };
+		699A3763253AE351008F2C26 /* NotWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A3762253AE351008F2C26 /* NotWorkView.swift */; };
+		699A3767253AED3C008F2C26 /* StateView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A3766253AED3C008F2C26 /* StateView01.swift */; };
+		699A376A253AF2F1008F2C26 /* StateView02_PassDataToOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A3769253AF2F1008F2C26 /* StateView02_PassDataToOtherViews.swift */; };
 		69A0E32E25358E2200F0CE79 /* KeyPathExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A0E32D25358E2200F0CE79 /* KeyPathExample.swift */; };
-		69B23A8B2535A977005BB54E /* ObservedObject07_PassInstanceToSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23A8A2535A977005BB54E /* ObservedObject07_PassInstanceToSecondView.swift */; };
-		69B23A922535AC00005BB54E /* ObservedObject03_referenceToSeperateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23A912535AC00005BB54E /* ObservedObject03_referenceToSeperateData.swift */; };
-		69B23A962535ACE0005BB54E /* ObservedObject04_referenceToOneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23A952535ACE0005BB54E /* ObservedObject04_referenceToOneData.swift */; };
+		69B23A8B2535A977005BB54E /* ObservedObject07_OneDataClassInstanceInDifferentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23A8A2535A977005BB54E /* ObservedObject07_OneDataClassInstanceInDifferentViews.swift */; };
+		69B23A922535AC00005BB54E /* ObservedObject03_DifferentInstancesFromOneDataCLass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23A912535AC00005BB54E /* ObservedObject03_DifferentInstancesFromOneDataCLass.swift */; };
+		69B23A962535ACE0005BB54E /* ObservedObject04_ReferenceToOneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23A952535ACE0005BB54E /* ObservedObject04_ReferenceToOneData.swift */; };
 		69B23A992535ADD8005BB54E /* ObservedObject05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23A982535ADD8005BB54E /* ObservedObject05.swift */; };
 		69B23A9F2535B39E005BB54E /* ObservedObject06_ManualCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23A9E2535B39E005BB54E /* ObservedObject06_ManualCall.swift */; };
 		69B23AA32535BB7D005BB54E /* ObservedObject08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B23AA22535BB7D005BB54E /* ObservedObject08.swift */; };
@@ -25,7 +29,7 @@
 		69F99F5825343B2E00FF09AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F99F5625343B2E00FF09AD /* LaunchScreen.storyboard */; };
 		69F99F612534517500FF09AD /* Binding02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99F602534517500FF09AD /* Binding02.swift */; };
 		69F99F65253456C100FF09AD /* Binding03Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99F64253456C100FF09AD /* Binding03Question.swift */; };
-		69F99F69253459CA00FF09AD /* ObservedObject01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99F68253459CA00FF09AD /* ObservedObject01.swift */; };
+		69F99F69253459CA00FF09AD /* ObservedObjectView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99F68253459CA00FF09AD /* ObservedObjectView01.swift */; };
 		69F99F6C25345F8300FF09AD /* ObservedObject02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99F6B25345F8300FF09AD /* ObservedObject02.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,10 +37,14 @@
 		6915092D25370C0D003909D2 /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
 		691509302537148B003909D2 /* EnvironmentObjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectListView.swift; sourceTree = "<group>"; };
 		6915093325371765003909D2 /* EnvironmentObjectStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectStartView.swift; sourceTree = "<group>"; };
+		699A375C253AA8FE008F2C26 /* Binding04Qestion_StateLifetime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding04Qestion_StateLifetime.swift; sourceTree = "<group>"; };
+		699A3762253AE351008F2C26 /* NotWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotWorkView.swift; sourceTree = "<group>"; };
+		699A3766253AED3C008F2C26 /* StateView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView01.swift; sourceTree = "<group>"; };
+		699A3769253AF2F1008F2C26 /* StateView02_PassDataToOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView02_PassDataToOtherViews.swift; sourceTree = "<group>"; };
 		69A0E32D25358E2200F0CE79 /* KeyPathExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathExample.swift; sourceTree = "<group>"; };
-		69B23A8A2535A977005BB54E /* ObservedObject07_PassInstanceToSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject07_PassInstanceToSecondView.swift; sourceTree = "<group>"; };
-		69B23A912535AC00005BB54E /* ObservedObject03_referenceToSeperateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject03_referenceToSeperateData.swift; sourceTree = "<group>"; };
-		69B23A952535ACE0005BB54E /* ObservedObject04_referenceToOneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject04_referenceToOneData.swift; sourceTree = "<group>"; };
+		69B23A8A2535A977005BB54E /* ObservedObject07_OneDataClassInstanceInDifferentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject07_OneDataClassInstanceInDifferentViews.swift; sourceTree = "<group>"; };
+		69B23A912535AC00005BB54E /* ObservedObject03_DifferentInstancesFromOneDataCLass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject03_DifferentInstancesFromOneDataCLass.swift; sourceTree = "<group>"; };
+		69B23A952535ACE0005BB54E /* ObservedObject04_ReferenceToOneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject04_ReferenceToOneData.swift; sourceTree = "<group>"; };
 		69B23A982535ADD8005BB54E /* ObservedObject05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject05.swift; sourceTree = "<group>"; };
 		69B23A9E2535B39E005BB54E /* ObservedObject06_ManualCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject06_ManualCall.swift; sourceTree = "<group>"; };
 		69B23AA22535BB7D005BB54E /* ObservedObject08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject08.swift; sourceTree = "<group>"; };
@@ -50,7 +58,7 @@
 		69F99F5925343B2E00FF09AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69F99F602534517500FF09AD /* Binding02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding02.swift; sourceTree = "<group>"; };
 		69F99F64253456C100FF09AD /* Binding03Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding03Question.swift; sourceTree = "<group>"; };
-		69F99F68253459CA00FF09AD /* ObservedObject01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject01.swift; sourceTree = "<group>"; };
+		69F99F68253459CA00FF09AD /* ObservedObjectView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectView01.swift; sourceTree = "<group>"; };
 		69F99F6B25345F8300FF09AD /* ObservedObject02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,20 +94,24 @@
 			children = (
 				69F99F4B25343B2D00FF09AD /* AppDelegate.swift */,
 				69F99F4D25343B2D00FF09AD /* SceneDelegate.swift */,
+				699A3762253AE351008F2C26 /* NotWorkView.swift */,
+				699A3766253AED3C008F2C26 /* StateView01.swift */,
+				699A3769253AF2F1008F2C26 /* StateView02_PassDataToOtherViews.swift */,
 				69F99F4F25343B2D00FF09AD /* Binding01.swift */,
 				69F99F602534517500FF09AD /* Binding02.swift */,
 				69F99F64253456C100FF09AD /* Binding03Question.swift */,
-				69F99F68253459CA00FF09AD /* ObservedObject01.swift */,
+				69F99F68253459CA00FF09AD /* ObservedObjectView01.swift */,
 				69F99F6B25345F8300FF09AD /* ObservedObject02.swift */,
-				69B23A912535AC00005BB54E /* ObservedObject03_referenceToSeperateData.swift */,
-				69B23A952535ACE0005BB54E /* ObservedObject04_referenceToOneData.swift */,
+				69B23A912535AC00005BB54E /* ObservedObject03_DifferentInstancesFromOneDataCLass.swift */,
+				69B23A952535ACE0005BB54E /* ObservedObject04_ReferenceToOneData.swift */,
 				69B23A982535ADD8005BB54E /* ObservedObject05.swift */,
 				69B23A9E2535B39E005BB54E /* ObservedObject06_ManualCall.swift */,
-				69B23A8A2535A977005BB54E /* ObservedObject07_PassInstanceToSecondView.swift */,
+				69B23A8A2535A977005BB54E /* ObservedObject07_OneDataClassInstanceInDifferentViews.swift */,
 				69B23AA22535BB7D005BB54E /* ObservedObject08.swift */,
 				6915092D25370C0D003909D2 /* EnvironmentObjectView.swift */,
 				691509302537148B003909D2 /* EnvironmentObjectListView.swift */,
 				6915093325371765003909D2 /* EnvironmentObjectStartView.swift */,
+				699A375C253AA8FE008F2C26 /* Binding04Qestion_StateLifetime.swift */,
 				69A0E32D25358E2200F0CE79 /* KeyPathExample.swift */,
 				69F99F5125343B2E00FF09AD /* Assets.xcassets */,
 				69F99F5625343B2E00FF09AD /* LaunchScreen.storyboard */,
@@ -191,16 +203,20 @@
 				69A0E32E25358E2200F0CE79 /* KeyPathExample.swift in Sources */,
 				69F99F4E25343B2D00FF09AD /* SceneDelegate.swift in Sources */,
 				69F99F65253456C100FF09AD /* Binding03Question.swift in Sources */,
+				699A375D253AA8FE008F2C26 /* Binding04Qestion_StateLifetime.swift in Sources */,
+				699A3767253AED3C008F2C26 /* StateView01.swift in Sources */,
 				69B23A992535ADD8005BB54E /* ObservedObject05.swift in Sources */,
-				69F99F69253459CA00FF09AD /* ObservedObject01.swift in Sources */,
-				69B23A962535ACE0005BB54E /* ObservedObject04_referenceToOneData.swift in Sources */,
+				69F99F69253459CA00FF09AD /* ObservedObjectView01.swift in Sources */,
+				69B23A962535ACE0005BB54E /* ObservedObject04_ReferenceToOneData.swift in Sources */,
 				69B23A9F2535B39E005BB54E /* ObservedObject06_ManualCall.swift in Sources */,
 				6915092E25370C0D003909D2 /* EnvironmentObjectView.swift in Sources */,
 				69F99F5025343B2D00FF09AD /* Binding01.swift in Sources */,
 				69F99F612534517500FF09AD /* Binding02.swift in Sources */,
+				699A3763253AE351008F2C26 /* NotWorkView.swift in Sources */,
 				6915093425371765003909D2 /* EnvironmentObjectStartView.swift in Sources */,
-				69B23A922535AC00005BB54E /* ObservedObject03_referenceToSeperateData.swift in Sources */,
-				69B23A8B2535A977005BB54E /* ObservedObject07_PassInstanceToSecondView.swift in Sources */,
+				69B23A922535AC00005BB54E /* ObservedObject03_DifferentInstancesFromOneDataCLass.swift in Sources */,
+				69B23A8B2535A977005BB54E /* ObservedObject07_OneDataClassInstanceInDifferentViews.swift in Sources */,
+				699A376A253AF2F1008F2C26 /* StateView02_PassDataToOtherViews.swift in Sources */,
 				691509312537148B003909D2 /* EnvironmentObjectListView.swift in Sources */,
 				69F99F6C25345F8300FF09AD /* ObservedObject02.swift in Sources */,
 				69B23AA32535BB7D005BB54E /* ObservedObject08.swift in Sources */,

@@ -15,8 +15,8 @@ struct ObservedObject07: View {
         NavigationView {
             VStack{
 
-                ObservedObject01(data: storeClasInstance)
-                ObservedObject01(data: storeClasInstance)
+                ObservedObjectView01(data: storeClasInstance)
+                ObservedObjectView01(data: storeClasInstance)
 
                 Spacer()
 
@@ -38,7 +38,7 @@ struct SecondView: View {
         ZStack {
             Rectangle().fill(Color.orange)
             VStack {
-                ObservedObject01(data: storeClasInstance)
+                ObservedObjectView01(data: storeClasInstance)
             }
         }
         .navigationBarTitle("Second View")

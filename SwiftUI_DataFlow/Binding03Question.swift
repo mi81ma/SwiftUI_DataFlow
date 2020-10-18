@@ -10,6 +10,10 @@ import SwiftUI
 struct Binding03Question: View {
     @Binding var count: Int
 
+    init(count: Binding<Int>) {
+        self._count = count
+    }
+
     var body: some View {
         VStack {
             Text("ContentView: \(count)")
@@ -53,12 +57,13 @@ struct MyStepper02: View {
     }
 }
 
-//
+
 //struct Binding03Question_Previews: PreviewProvider {
-//    static var previews: some View {
 //
+//    @State private var count: Int = 0
+//
+//    static var previews: some View {
 //        // @Binding valiable is needed to set value
-//        Binding03Question(count:)
+//        Binding03Question(count: $count)
 //    }
 //}
-
